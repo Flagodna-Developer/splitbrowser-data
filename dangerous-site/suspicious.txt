@@ -1,5 +1,10 @@
-# Suspicious sites - Potentially risky but not confirmed dangerous
-# Last updated: 2024-01-15
+# Title: LensBrowser Suspicious Sites List
+# Description: Domains involved in aggressive ads, crypto scams, fake tech support, gambling, adult content, or heavy tracking. Not confirmed malware, but high-risk.
+# Homepage: https://github.com/flagodna-developer/lensbrowser-data
+# Version: 20251118
+# Last modified: 2025-11-18 
+# License: MIT
+# Warning Level: Medium (show warning interstitial)
 
 # Sites with excessive subdomains
 free.download.software.2024.com

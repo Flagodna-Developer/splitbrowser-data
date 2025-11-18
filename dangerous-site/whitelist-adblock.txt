@@ -1,60 +1,107 @@
-"google.com",
-"gstatic.com",
-"googleapis.com",
-"googleusercontent.com",
-"recaptcha.net",
-"recaptcha.google.com",
-"www.google.com",
-"www.gstatic.com",
-"ggpht.com",
+# Title: LensBrowser Whitelist – Never Block These Domains
+# Description: Critical domains that must never be blocked. Prevents breaking Google, YouTube, news sites, reCAPTCHA, CDNs, etc.
+# Homepage: https://github.com/flagodna-developer/lensbrowser-data
+# Version: 20251118
+# Last modified: 2025-11-18 
+# License: MIT
 
-// reCAPTCHA specific domains
-"recaptcha.net",
-"www.recaptcha.net",
-"api.recaptcha.net",
-"client-api.recaptcha.net",
-"enterprise.recaptcha.net",
-"web-api.recaptcha.net",
+# === Google Core ===
+google.com
+gstatic.com
+googleapis.com
+googleusercontent.com
+ggpht.com
+lh3.googleusercontent.com
+lh4.googleusercontent.com
+lh5.googleusercontent.com
+lh6.googleusercontent.com
+play.google.com
+play-lh.googleusercontent.com
 
-// reCAPTCHA API endpoints
-"www.google.com/recaptcha/",
-"recaptcha.net/recaptcha/",
-"google.com/recaptcha/",
+# === reCAPTCHA (MUST never be blocked) ===
+recaptcha.net
+recaptcha.google.com
+www.recaptcha.net
+api.recaptcha.net
+client-api.recaptcha.net
+enterprise.recaptcha.net
+web-api.recaptcha.net
 
-// Google Play and content CDNs
-"play.google.com", "play-lh.googleusercontent.com",
-"lh3.googleusercontent.com", "lh4.googleusercontent.com",
-"lh5.googleusercontent.com", "lh6.googleusercontent.com",
+# === YouTube ===
+youtube.com
+youtu.be
+ytimg.com
+googlevideo.com
+youtube-nocookie.com
 
-// AMP Project domains (essential for AMP pages)
-"cdn.ampproject.org",
-"ampproject.org",
-"amp.cloudflare.com",
+# === Google Fonts & AMP ===
+fonts.googleapis.com
+fonts.gstatic.com
+cdn.ampproject.org
+ampproject.org
+amp.cloudflare.com
 
-// Common AMP cache domains
-"google.com/amp/",
-"bing.com/amp/",
+# === Major CDNs (safe & widely used) ===
+cdnjs.cloudflare.com
+jsdelivr.net
+unpkg.com
+bootstrapcdn.com
+cloudflare.com
+cloudflare.net
 
-// AMP component domains
-"ampbyexample.com",
-"amp.dev",
+# === Social Media Assets ===
+fbcdn.net
+cdninstagram.com
+twimg.com
+graph.instagram.com
+instagram.com
 
-// Fonts
-"fonts.googleapis.com", "fonts.gstatic.com",
+# === Images & Dev Hosting ===
+imgur.com
+images.unsplash.com
+staticflickr.com
+media.dev.to
+githubusercontent.com
+gitlab-static.net
+gitlab.com
 
-// YouTube
-"youtube.com", "youtu.be", "ytimg.com", "googlevideo.com",
+# === Privacy-Friendly Search & Standards ===
+w3.org
+schema.org
+wikipedia.org
+wikimedia.org
+startpage.com
+ecosia.org
+duckduckgo.com
+yahoo.com
+yandex.com
 
-// Common CDNs
-"cdnjs.cloudflare.com", "jsdelivr.net", "unpkg.com", "bootstrapcdn.com",
+# === News & Content Sites (prevent breaking) ===
+edition.cnn.com
+cnn.com
+bbc.co.uk
+bbc.com
+nytimes.com
+theguardian.com
+reuters.com
+apnews.com
+news.google.com
+bloomberg.com
+wsj.com
 
-// Social media content
-"fbcdn.net", "cdninstagram.com", "twimg.com",
-
-// Image-specific domains
-"imgur.com", "images.unsplash.com", "staticflickr.com",
-"media.dev.to", "githubusercontent.com", "gitlab-static.net",
-
-// Standard domains
-"w3.org", "schema.org", "wikipedia.org", "wikimedia.org",
-"startpage.com", "ecosia.org", "duckduckgo.com", "yahoo.com"
+# === Extra Safe Domains (commonly needed) ===
+gravatar.com
+wordpress.com
+wp.com
+medium.com
+substack.com
+substackcdn.com
+discord.com
+discordapp.net
+discord.gg
+twitch.tv
+reddit.com
+redditmedia.com
+t.co
+x.com
+twitter.com

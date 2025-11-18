@@ -1,5 +1,10 @@
-# Gambling and casino sites
-# Last updated: 2024-01-15
+# Title: LensBrowser Gambling Sites List
+# Description: Domains associated with online gambling, betting platforms, casinos, high-risk gaming, unlicensed operators, or websites known for aggressive gambling promotions. Not malware, but potentially harmful or addictive; a warning interstitial is recommended.
+# Homepage: https://github.com/flagodna-developer/lensbrowser-data
+# Version: 20251118
+# Last modified: 2025-11-18
+# License: MIT
+# Warning Level: Medium (show warning interstitial)
 
 # Major gambling platforms
 bet365.com

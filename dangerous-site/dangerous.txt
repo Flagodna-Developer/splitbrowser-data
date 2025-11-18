@@ -1,6 +1,10 @@
-# High-risk dangerous sites - Malware, Phishing, Scams
-# Last updated: 2024-01-15
-# Sources: Various threat intelligence feeds
+# Title: LensBrowser Dangerous Sites Blocklist
+# Description: Confirmed malware, phishing, scam, and highly dangerous domains. Blocked with full-screen warning.
+# Homepage: https://github.com/flagodna-developer/lensbrowser-data
+# Version: 20251118
+# Last modified: 2025-11-18 
+# License: MIT
+# Warning Level: High (block + red interstitial)
 
 # Fake software portals (malware distribution)
 7zip.es
